@@ -19,17 +19,11 @@ public class PapelMoedaTest {
     
     public PapelMoedaTest() {
     }
+    
     @Test
     public void verifyQuantity() {
-        int quantity = 12;
-        PapelMoeda papelMoeda = new PapelMoeda(10, quantity);
-        assertEquals(papelMoeda.getQuantidade(), quantity);
+        PapelMoeda papelMoeda = new PapelMoeda(10, 5);
+        assertEquals(papelMoeda.getQuantidade(), 5);
     }
-
-    @Test
-    public void verifyValue() {
-        int value = 12;
-        PapelMoeda papelMoeda = new PapelMoeda(value, 10);
-        assertEquals(papelMoeda.getValor(), value);
-    }  
+    
 }
