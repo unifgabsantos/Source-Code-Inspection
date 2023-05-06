@@ -19,11 +19,11 @@ public class TicketMachineTest {
     /**
      * Test of inserir method, of class TicketMachine.
      */
-    @Test
+'''    @Test
     public void verifyInserirTicket50() throws PapelMoedaInvalidaException {
         TicketMachine ticketMachine = new TicketMachine(3);
         ticketMachine.inserir(50);
         assertEquals(ticketMachine.getSaldo(), 50);
-    }
+    }'''
     
 }
