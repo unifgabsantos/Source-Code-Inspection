@@ -12,10 +12,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author unifgabsantos
- */
 public class TrocoTest {
     /**
      * Test of getIterator method, of class Troco.
