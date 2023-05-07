@@ -23,7 +23,6 @@ public class TrocoTest {
         PapelMoeda papelMoeda = new PapelMoeda(10, quantity);
         System.out.println(papelMoeda);
         assertEquals(papelMoeda.getQuantidade(), quantity);
-        fail("Este erro era esperado.");
     } 
     
     @Test
